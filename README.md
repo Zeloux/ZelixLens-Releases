@@ -16,9 +16,6 @@
 
 ZelixLens is a proprietary, binary-distributed **CS2 cheat and external overlay** for Counter-Strike 2. It provides player ESP, radar and world information, configurable aim/aimbot settings, presets, and display controls while remaining external to the game process.
 
-> [!IMPORTANT]
-> ZelixLens is unofficial third-party software and is not affiliated with or endorsed by Valve. Use of third-party gameplay software may violate game or platform rules and can result in account restrictions. You are responsible for understanding the rules that apply to your account.
-
 ## Preview
 
 <div align="center">
@@ -44,8 +41,6 @@ ZelixLens is a proprietary, binary-distributed **CS2 cheat and external overlay*
 
 ZelixLens runs separately from CS2. Its game-data transport is read-only: it does not inject code into CS2 and does not write to CS2 process memory. The current customer release uses a kernel-backed read transport.
 
-External and read-only describes the software architecture. It is **not** a guarantee against detection, account action, software incompatibility, or future game updates.
-
 ## Download
 
 Download only the complete package from this repository:
@@ -58,6 +53,8 @@ Download only the complete package from this repository:
 
 Do not download executables sent through direct messages or unofficial mirrors.
 
+Use the complete, unmodified package as documented. ZelixLens is not responsible for issues caused by unofficial copies, modified files, incomplete extraction, or incorrect use.
+
 ## Verify before running
 
 Every official release includes:
@@ -67,7 +64,7 @@ Every official release includes:
 - `ZelixLens-CS2-Edition.provenance.json` for release provenance
 - `ZelixLens-CS2-Edition-NOTICES.txt` for software and third-party license notices
 
-See [VERIFY.md](VERIFY.md) for PowerShell verification steps. A checksum confirms that a file matches the published release; it does not independently prove that software is safe or suitable for your system.
+See [VERIFY.md](VERIFY.md) for PowerShell verification steps.
 
 ## System requirements
 
@@ -101,8 +98,6 @@ Daily, weekly, monthly, and lifetime access options are handled through the [off
 ## License
 
 ZelixLens is proprietary software. An access license grants a limited right to run the official binary while the access period is active; it does not transfer ownership or grant source-code rights. See [LICENSE.md](LICENSE.md) and the complete notices included with every release.
-
-Counter-Strike, Counter-Strike 2, CS2, Steam, and Valve are trademarks or registered trademarks of Valve Corporation. Their use here is descriptive only.
 
 <div align="center">
 
