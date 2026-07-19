@@ -4,7 +4,7 @@ Use these steps before running a newly downloaded ZelixLens package.
 
 ## 1. Download from an official source
 
-Download `ZelixLens-CS2-Edition.zip` from the [latest GitHub release](../../releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
+Download `ZelixLens-CS2-Edition.zip` from the [latest GitHub release](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
 
 Then download `SHA256SUMS.txt` from the GitHub release for the published verification value.
 
@@ -41,4 +41,4 @@ The ZelixLens launcher verifies authenticated updater metadata before accepting 
 
 A matching SHA-256 value confirms that your file is byte-for-byte identical to the asset published in the official release. It does not independently establish that software is safe, compatible, permitted by a game platform, or suitable for your computer.
 
-If the values do not match, delete the downloaded copy and report the mismatch privately through [SECURITY.md](SECURITY.md).
+If the values do not match, delete the downloaded copy and report the mismatch privately through the [security policy](../SECURITY.md).

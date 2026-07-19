@@ -1,6 +1,6 @@
 # Changelog
 
-This file records customer-facing ZelixLens CS2 Edition releases. Release assets and exact publication times remain available on the [GitHub Releases page](../../releases).
+This file records customer-facing ZelixLens CS2 Edition releases. Release assets and exact publication times remain available on the [GitHub Releases page](https://github.com/Zaroomx/ZelixLens-Releases/releases).
 
 ## 2.0.0 - 2026-07-19
 

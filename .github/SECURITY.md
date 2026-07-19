@@ -2,9 +2,9 @@
 
 ## Official distribution
 
-Download ZelixLens from this repository's [official GitHub Releases page](../../releases) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766). Do not trust executables sent through direct messages or hosted on unofficial mirrors.
+Download ZelixLens from this repository's [official GitHub Releases page](https://github.com/Zaroomx/ZelixLens-Releases/releases) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766). Do not trust executables sent through direct messages or hosted on unofficial mirrors.
 
-Each release includes SHA-256 checksums, authenticated updater metadata, a provenance record, and consolidated license notices. Follow [VERIFY.md](VERIFY.md) before running a newly downloaded package.
+Each release includes SHA-256 checksums, authenticated updater metadata, a provenance record, and consolidated license notices. Follow [the download-verification guide](docs/VERIFY.md) before running a newly downloaded package.
 
 ## Report a vulnerability privately
 

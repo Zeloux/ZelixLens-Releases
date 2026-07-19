@@ -4,12 +4,12 @@
 
 **External, read-only Counter-Strike 2 overlay for Windows 10/11 x64.**
 
-[![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](../../releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
 [![Memory access](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)](#external-and-read-only)
-[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-Releases/total?style=for-the-badge&color=7c3aed)](../../releases)
+[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-Releases/total?style=for-the-badge&color=7c3aed)](https://github.com/Zaroomx/ZelixLens-Releases/releases)
 
-[![Download the latest complete package](https://img.shields.io/badge/DOWNLOAD-ZelixLens--CS2--Edition.zip-16A34A?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest/download/ZelixLens-CS2-Edition.zip)
+[![Download the latest complete package](https://img.shields.io/badge/DOWNLOAD-ZelixLens--CS2--Edition.zip-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest/download/ZelixLens-CS2-Edition.zip)
 [![Official support](https://img.shields.io/badge/SUPPORT-Official%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
 
 </div>
@@ -20,8 +20,8 @@ ZelixLens is a proprietary, binary-distributed **CS2 cheat and external overlay*
 
 <div align="center">
 
-<a href="assets/zelixlens-cs2-showcase.png">
-  <img src="assets/zelixlens-cs2-showcase.png" alt="ZelixLens CS2 Edition overlay settings interface" width="100%">
+<a href=".github/assets/zelixlens-cs2-showcase.png">
+  <img src=".github/assets/zelixlens-cs2-showcase.png" alt="ZelixLens CS2 Edition overlay settings interface" width="100%">
 </a>
 
 <sub>ZelixLens CS2 Edition player-overlay settings and control panel.</sub>
@@ -45,9 +45,9 @@ ZelixLens runs separately from CS2. Its game-data access is read-only: it does n
 
 Get the complete package from either official source:
 
-1. Open the [latest GitHub release](../../releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
+1. Open the [latest GitHub release](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
 2. Download the complete `ZelixLens-CS2-Edition.zip` package.
-3. Compare the package hash with the official value by following [VERIFY.md](VERIFY.md).
+3. Compare the package hash with the official value by following the [download-verification guide](.github/docs/VERIFY.md).
 4. Extract the complete ZIP and run `ZelixLens.Launcher.exe`.
 5. Enter your access key and select **Verify & Launch**.
 
@@ -64,7 +64,7 @@ Every official release includes:
 - `ZelixLens-CS2-Edition.provenance.json` for release provenance
 - `ZelixLens-CS2-Edition-NOTICES.txt` for software and third-party license notices
 
-See [VERIFY.md](VERIFY.md) for PowerShell verification steps.
+See the [download-verification guide](.github/docs/VERIFY.md) for PowerShell verification steps.
 
 ## System requirements
 
@@ -73,13 +73,13 @@ See [VERIFY.md](VERIFY.md) for PowerShell verification steps.
 - An active ZelixLens access key
 - Network access for license verification and authenticated updates
 
-CS2 changes frequently. Review the publication date and compatibility notes on the [latest release](../../releases/latest) before installing.
+CS2 changes frequently. Review the publication date and compatibility notes on the [latest release](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest) before installing.
 
 ## Security and troubleshooting
 
 If security software reports or quarantines a file, stop and verify that it came from the official release and matches the published SHA-256 value. Do not disable operating-system security controls solely to force an unverified binary to run.
 
-Report suspected tampering or a security vulnerability privately by following [SECURITY.md](SECURITY.md). For installation and account help, use [SUPPORT.md](SUPPORT.md).
+Report suspected tampering or a security vulnerability privately through the [security policy](.github/SECURITY.md). For installation and account help, use the [support guide](.github/SUPPORT.md).
 
 ## Access and official channels
 
@@ -87,13 +87,13 @@ Daily, weekly, monthly, and lifetime access options are handled through the [off
 
 ## Documentation
 
-- [Release history](CHANGELOG.md)
-- [Verify a download](VERIFY.md)
-- [Privacy notice](PRIVACY.md)
-- [Support](SUPPORT.md)
-- [Security policy](SECURITY.md)
+- [Release history](.github/docs/CHANGELOG.md)
+- [Verify a download](.github/docs/VERIFY.md)
+- [Privacy notice](.github/docs/PRIVACY.md)
+- [Support](.github/SUPPORT.md)
+- [Security policy](.github/SECURITY.md)
 - [Software license](LICENSE.md)
-- [Documentation contributions](CONTRIBUTING.md)
+- [Documentation contributions](.github/CONTRIBUTING.md)
 
 ## License
 
@@ -101,7 +101,7 @@ ZelixLens is proprietary software. An access license grants a limited right to r
 
 <div align="center">
 
-**[Download latest](../../releases/latest)** · **[Verify](VERIFY.md)** · **[Support](https://discord.gg/KaA3YBZ43D)**
+**[Download latest](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest)** · **[Verify](.github/docs/VERIFY.md)** · **[Support](https://discord.gg/KaA3YBZ43D)**
 
 <sub>ZelixLens CS2 Edition · Official releases by Zaroomx</sub>
 
