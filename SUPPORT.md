@@ -1,14 +1,14 @@
 # Support
 
-Use only official ZelixLens channels:
+Use the official ZelixLens channels:
 
-- [GitHub Releases](../../releases/latest) for downloads
+- [GitHub Releases](../../releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766) for downloads
 - [GitHub Discussions](../../discussions) for public announcements and non-sensitive questions
 - [Official Discord](https://discord.gg/KaA3YBZ43D) for access, account, and private installation support
 
 ## Before requesting help
 
-1. Confirm that you downloaded the complete ZIP from the latest official release.
+1. Confirm that you downloaded the complete ZIP from GitHub Releases or the official Discord #download channel.
 2. Follow [VERIFY.md](VERIFY.md) and compare the package SHA-256 value.
 3. Confirm that you are using Windows 10/11 x64 and the current supported CS2 release.
 4. Record the ZelixLens version, the exact error message, and the step that failed.

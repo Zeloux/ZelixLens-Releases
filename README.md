@@ -35,19 +35,19 @@ ZelixLens is a proprietary, binary-distributed **CS2 cheat and external overlay*
 - Configurable aim and aimbot settings including FOV, smoothing, target bone, target priority, sticky targeting, and activation keys
 - Custom crosshairs, colors, visual profiles, display options, and saveable presets
 - F1 menu toggle, F4 panic hide, and adjustable overlay frame rate
-- Secure launcher with encrypted local key storage and authenticated automatic updates
+- Launcher with license verification and automatic updates
 
 ## External and read-only
 
-ZelixLens runs separately from CS2. Its game-data transport is read-only: it does not inject code into CS2 and does not write to CS2 process memory. The current customer release uses a kernel-backed read transport.
+ZelixLens runs separately from CS2. Its game-data access is read-only: it does not inject code into CS2 and does not write to CS2 process memory.
 
 ## Download
 
-Download only the complete package from this repository:
+Get the complete package from either official source:
 
-1. Open the [latest official release](../../releases/latest).
-2. Download `ZelixLens-CS2-Edition.zip` from **Assets**.
-3. Compare the package hash with `SHA256SUMS.txt` by following [VERIFY.md](VERIFY.md).
+1. Open the [latest GitHub release](../../releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
+2. Download the complete `ZelixLens-CS2-Edition.zip` package.
+3. Compare the package hash with the official value by following [VERIFY.md](VERIFY.md).
 4. Extract the complete ZIP and run `ZelixLens.Launcher.exe`.
 5. Enter your access key and select **Verify & Launch**.
 

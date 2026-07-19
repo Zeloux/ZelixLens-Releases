@@ -2,7 +2,7 @@
 
 ## Official distribution
 
-Download ZelixLens only from this repository's [official GitHub Releases page](../../releases). Do not trust executables sent through direct messages or hosted on unofficial mirrors.
+Download ZelixLens from this repository's [official GitHub Releases page](../../releases) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766). Do not trust executables sent through direct messages or hosted on unofficial mirrors.
 
 Each release includes SHA-256 checksums, authenticated updater metadata, a provenance record, and consolidated license notices. Follow [VERIFY.md](VERIFY.md) before running a newly downloaded package.
 
@@ -22,6 +22,6 @@ If GitHub private vulnerability reporting is unavailable, open a private ticket 
 
 ## Security-software reports
 
-If security software flags a download, stop and confirm its source and SHA-256 value. A matching checksum establishes that the file matches the official GitHub asset; it does not prove that the file is safe or appropriate for every system.
+If security software flags a download, stop and confirm its source and SHA-256 value. A matching checksum establishes that the package matches the published official asset.
 
 Do not disable operating-system security controls solely to force an unverified binary to run.

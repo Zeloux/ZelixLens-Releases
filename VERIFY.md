@@ -2,12 +2,11 @@
 
 Use these steps before running a newly downloaded ZelixLens package.
 
-## 1. Download from the official release
+## 1. Download from an official source
 
-Open the [latest ZelixLens release](../../releases/latest) and download both:
+Download `ZelixLens-CS2-Edition.zip` from the [latest GitHub release](../../releases/latest) or the Zelix Lens Discord [#download channel](https://discord.com/channels/1526369471256596560/1527019431836913766).
 
-- `ZelixLens-CS2-Edition.zip`
-- `SHA256SUMS.txt`
+Then download `SHA256SUMS.txt` from the GitHub release for the published verification value.
 
 Do not use copies sent through direct messages or hosted on unofficial mirrors.
 
