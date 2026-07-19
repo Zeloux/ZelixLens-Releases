@@ -4,10 +4,10 @@
 
 **External, read-only Counter-Strike 2 overlay for Windows 10/11 x64.**
 
-[![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-CS2-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](../../releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](../../releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
 [![Memory access](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)](#external-and-read-only)
-[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-CS2-Releases/total?style=for-the-badge&color=7c3aed)](../../releases)
+[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-Releases/total?style=for-the-badge&color=7c3aed)](../../releases)
 
 [![Download the latest complete package](https://img.shields.io/badge/DOWNLOAD-ZelixLens--CS2--Edition.zip-16A34A?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest/download/ZelixLens-CS2-Edition.zip)
 [![Official support](https://img.shields.io/badge/SUPPORT-Official%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
