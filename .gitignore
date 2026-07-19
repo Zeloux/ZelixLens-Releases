@@ -1,0 +1,8 @@
+# Binary-only public release repository.
+# Release files belong in GitHub Releases, never in the Git tree.
+*
+!.gitignore
+!README.md
+!SECURITY.md
+!assets/
+!assets/*.png
