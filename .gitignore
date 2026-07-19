@@ -4,5 +4,15 @@
 !.gitignore
 !README.md
 !SECURITY.md
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!LICENSE.md
+!PRIVACY.md
+!SUPPORT.md
+!VERIFY.md
+!.github/
+!.github/*.yml
 !assets/
 !assets/*.png
+!assets/*.jpg

@@ -2,93 +2,112 @@
 
 # ZelixLens CS2 Edition
 
-**Fast, clean CS2 overlay for Windows.**
+**External, read-only Counter-Strike 2 overlay for Windows 10/11 x64.**
 
-**PRIVATE CHAIR | FULL KERNEL BACKEND | READ-ONLY**
+[![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-CS2-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](../../releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
+[![Memory access](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)](#external-and-read-only)
+[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-CS2-Releases/total?style=for-the-badge&color=7c3aed)](../../releases)
 
-**WORKS WITH THE LATEST CS2 UPDATE**
-
-<sub>Made by <strong>Zaroomx</strong></sub>
-
-<br><br>
-
-![Version](https://img.shields.io/badge/Version-2.0.0-8B5CF6?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Kernel](https://img.shields.io/badge/Backend-Full%20Kernel-DC2626?style=for-the-badge)
-![Read Only](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)
-![Undetected](https://img.shields.io/badge/Status-UNDETECTED-16A34A?style=for-the-badge)
-![CS2 Compatibility](https://img.shields.io/badge/CS2-Latest%20Update%20Compatible-F97316?style=for-the-badge)
-
-[![Download ZelixLens-CS2-Edition.zip](https://img.shields.io/badge/DOWNLOAD-ZelixLens--CS2--Edition.zip-7C3AED?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest/download/ZelixLens-CS2-Edition.zip)
-[![Discord](https://img.shields.io/badge/Get%20a%20Key-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
+[![Download the latest complete package](https://img.shields.io/badge/DOWNLOAD-ZelixLens--CS2--Edition.zip-16A34A?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest/download/ZelixLens-CS2-Edition.zip)
+[![Official support](https://img.shields.io/badge/SUPPORT-Official%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
 
 </div>
 
----
+ZelixLens is a proprietary, binary-distributed **CS2 cheat and external overlay** for Counter-Strike 2. It provides player ESP, radar and world information, configurable aim/aimbot settings, presets, and display controls while remaining external to the game process.
+
+> [!IMPORTANT]
+> ZelixLens is unofficial third-party software and is not affiliated with or endorsed by Valve. Use of third-party gameplay software may violate game or platform rules and can result in account restrictions. You are responsible for understanding the rules that apply to your account.
 
 ## Preview
 
 <div align="center">
 
 <a href="assets/zelixlens-cs2-showcase.png">
-  <img src="assets/zelixlens-cs2-showcase.png" alt="ZelixLens CS2 Edition overlay and control panel" width="100%">
+  <img src="assets/zelixlens-cs2-showcase.png" alt="ZelixLens CS2 Edition overlay settings interface" width="100%">
 </a>
 
-<sub>Clean in-game controls with a focused, low-clutter layout.</sub>
+<sub>ZelixLens CS2 Edition player-overlay settings and control panel.</sub>
 
 </div>
 
----
-
 ## Features
 
-- Full kernel-backed, read-only memory transport
-- Player ESP with boxes, skeletons, health, armor, weapons, distance, status details, tracers, and visibility filters
+- Player ESP with boxes, skeletons, health, armor, weapons, distance, tracers, and visibility filters
 - Radar, directional indicators, world markers, bomb information, spectator list, proximity alerts, and flash warnings
-- Aim settings for FOV, smoothing, target bone, target priority, sticky targeting, and activation keys
+- Configurable aim and aimbot settings including FOV, smoothing, target bone, target priority, sticky targeting, and activation keys
 - Custom crosshairs, colors, visual profiles, display options, and saveable presets
-- F1 menu toggle and F4 instant panic hide
-- Adjustable overlay frame rate for smooth in-game performance
-- Secure launcher with saved keys and automatic updates
+- F1 menu toggle, F4 panic hide, and adjustable overlay frame rate
+- Secure launcher with encrypted local key storage and authenticated automatic updates
 
-## Full kernel, external, and read-only
+## External and read-only
 
-ZelixLens uses a full kernel-backed read transport while remaining external and read-only. It runs separately from CS2, does not inject into the game, and does not write to CS2 process memory.
+ZelixLens runs separately from CS2. Its game-data transport is read-only: it does not inject code into CS2 and does not write to CS2 process memory. The current customer release uses a kernel-backed read transport.
 
-## Download and install
+External and read-only describes the software architecture. It is **not** a guarantee against detection, account action, software incompatibility, or future game updates.
 
-Choose either option:
+## Download
 
-- **Download button:** Click the purple **ZelixLens-CS2-Edition.zip** button above.
-- **Assets list:** Open the [latest official release](../../releases/latest), expand **Assets**, and click `ZelixLens-CS2-Edition.zip`.
+Download only the complete package from this repository:
 
-After downloading:
+1. Open the [latest official release](../../releases/latest).
+2. Download `ZelixLens-CS2-Edition.zip` from **Assets**.
+3. Compare the package hash with `SHA256SUMS.txt` by following [VERIFY.md](VERIFY.md).
+4. Extract the complete ZIP and run `ZelixLens.Launcher.exe`.
+5. Enter your access key and select **Verify & Launch**.
 
-1. Extract the full ZIP.
-2. Run `ZelixLens.Launcher.exe`.
-3. Enter your key and press **Verify & Launch**.
+Do not download executables sent through direct messages or unofficial mirrors.
 
-## Troubleshooting
+## Verify before running
 
-Some antivirus programs, including Windows Defender, may flag ZelixLens as a false positive. This is expected for external overlays and does not mean the file is unsafe — ZelixLens is fully external and read-only.
+Every official release includes:
 
-You are welcome to verify this yourself. Upload the file to [VirusTotal](https://www.virustotal.com/), run it through any sandbox, or analyze it with whatever tool you trust. Nothing about ZelixLens is hidden, and independent checks are always encouraged.
+- `SHA256SUMS.txt` for asset-integrity checks
+- `update-manifest.txt` and `update-manifest.sig` for authenticated updater metadata
+- `ZelixLens-CS2-Edition.provenance.json` for release provenance
+- `ZelixLens-CS2-Edition-NOTICES.txt` for software and third-party license notices
 
-If your download is blocked, quarantined, or gets removed on launch, try either of the following:
+See [VERIFY.md](VERIFY.md) for PowerShell verification steps. A checksum confirms that a file matches the published release; it does not independently prove that software is safe or suitable for your system.
 
-- **Exclude the ZelixLens folder** in Windows Defender or your antivirus so it stops scanning it.
-- **Temporarily disable real-time protection**, install and launch ZelixLens, then re-enable protection afterward.
+## System requirements
 
-Only use these steps as troubleshooting. If the issue continues or you're unsure how to add an exclusion, join the [Discord](https://discord.gg/KaA3YBZ43D) and the team will walk you through it.
+- Windows 10 or Windows 11, x64
+- Counter-Strike 2
+- An active ZelixLens access key
+- Network access for license verification and authenticated updates
 
-## Keys and support
+CS2 changes frequently. Review the publication date and compatibility notes on the [latest release](../../releases/latest) before installing.
 
-Daily, weekly, monthly, and lifetime keys are available in the official Discord server.
+## Security and troubleshooting
+
+If security software reports or quarantines a file, stop and verify that it came from the official release and matches the published SHA-256 value. Do not disable operating-system security controls solely to force an unverified binary to run.
+
+Report suspected tampering or a security vulnerability privately by following [SECURITY.md](SECURITY.md). For installation and account help, use [SUPPORT.md](SUPPORT.md).
+
+## Access and official channels
+
+Daily, weekly, monthly, and lifetime access options are handled through the [official ZelixLens Discord](https://discord.gg/KaA3YBZ43D). Never post license keys, passwords, recovery codes, or personal information in a public GitHub or Discord message.
+
+## Documentation
+
+- [Release history](CHANGELOG.md)
+- [Verify a download](VERIFY.md)
+- [Privacy notice](PRIVACY.md)
+- [Support](SUPPORT.md)
+- [Security policy](SECURITY.md)
+- [Software license](LICENSE.md)
+- [Documentation contributions](CONTRIBUTING.md)
+
+## License
+
+ZelixLens is proprietary software. An access license grants a limited right to run the official binary while the access period is active; it does not transfer ownership or grant source-code rights. See [LICENSE.md](LICENSE.md) and the complete notices included with every release.
+
+Counter-Strike, Counter-Strike 2, CS2, Steam, and Valve are trademarks or registered trademarks of Valve Corporation. Their use here is descriptive only.
 
 <div align="center">
 
-[![Join Discord](https://img.shields.io/badge/Purchase%20a%20Key-Join%20ZelixLens-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
+**[Download latest](../../releases/latest)** · **[Verify](VERIFY.md)** · **[Support](https://discord.gg/KaA3YBZ43D)**
 
-<sub>ZelixLens CS2 Edition - Made by Zaroomx</sub>
+<sub>ZelixLens CS2 Edition · Official releases by Zaroomx</sub>
 
 </div>

@@ -1,7 +1,27 @@
-# Security
+# Security policy
 
-Download ZelixLens only from this repository's official GitHub Releases page. Do not trust files sent through direct messages or unofficial mirrors.
+## Official distribution
 
-Report suspected tampering, leaked credentials, or other security issues privately through GitHub's **Report a vulnerability** option. Never post license keys, passwords, tokens, recovery codes, or personal information in a public channel.
+Download ZelixLens only from this repository's [official GitHub Releases page](../../releases). Do not trust executables sent through direct messages or hosted on unofficial mirrors.
 
-For purchase and account support, use the official [Zelix Lens Discord](https://discord.gg/KaA3YBZ43D) and open a private ticket.
+Each release includes SHA-256 checksums, authenticated updater metadata, a provenance record, and consolidated license notices. Follow [VERIFY.md](VERIFY.md) before running a newly downloaded package.
+
+## Report a vulnerability privately
+
+Use this repository's **Security → Report a vulnerability** option to report:
+
+- suspected release-asset tampering
+- signature or checksum verification failures
+- updater or launcher security defects
+- leaked credentials or access-control weaknesses
+- accidental exposure of private customer information
+
+Include the affected version, a concise reproduction, the expected result, and the observed result. Do not include live access keys, passwords, tokens, recovery codes, or unnecessary personal information.
+
+If GitHub private vulnerability reporting is unavailable, open a private ticket in the [official ZelixLens Discord](https://discord.gg/KaA3YBZ43D) and ask for the security-reporting contact. Do not post vulnerability details in a public channel.
+
+## Security-software reports
+
+If security software flags a download, stop and confirm its source and SHA-256 value. A matching checksum establishes that the file matches the official GitHub asset; it does not prove that the file is safe or appropriate for every system.
+
+Do not disable operating-system security controls solely to force an unverified binary to run.
