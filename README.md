@@ -9,6 +9,7 @@
 [![Latest release](https://img.shields.io/github/v/release/Zaroomx/ZelixLens-Releases?display_name=tag&sort=semver&style=for-the-badge&color=22c55e)](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest)
 [![Kernel backend](https://img.shields.io/badge/Backend-Full%20Kernel-DC2626?style=for-the-badge)](#full-kernel-external-and-read-only)
 [![Read-only](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)](#full-kernel-external-and-read-only)
+![Undetected](https://img.shields.io/badge/Status-UNDETECTED-16A34A?style=for-the-badge)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
 [![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-Releases/total?style=for-the-badge&color=7c3aed)](https://github.com/Zaroomx/ZelixLens-Releases/releases)
 
@@ -156,7 +157,17 @@ CS2 changes frequently. Check the date and compatibility notes on the [latest re
 
 ## Support and troubleshooting
 
-If a download is blocked or quarantined, first confirm that it came from one of the two official sources and matches the published SHA-256 value. For installation, key, launcher, or update help, use the [support guide](.github/SUPPORT.md) or ask in the [official Discord](https://discord.gg/KaA3YBZ43D).
+### Antivirus, blocked downloads, or quarantine
+
+Some antivirus products, including Windows Defender, may report a false positive or quarantine external overlay software. A warning is not enough by itself to confirm whether a file is safe, so verify the package before changing any antivirus setting:
+
+1. Confirm that the ZIP came from the official GitHub release or the official Discord download channel.
+2. Compare its SHA-256 value with the published `SHA256SUMS.txt` by following the [verification guide](.github/docs/VERIFY.md).
+3. Extract the complete, verified ZIP into its own folder.
+
+If the verified package is still blocked, restore it from quarantine and add a narrow allow rule or exclusion for the ZelixLens folder. Do not exclude your entire Downloads folder, drive, or another broad location. If real-time protection must be paused for a quick installation test, turn it back on immediately afterward and keep the exception limited to the verified ZelixLens folder.
+
+For installation, antivirus, key, launcher, or update help, use the [support guide](.github/SUPPORT.md) or ask in the [official Discord](https://discord.gg/KaA3YBZ43D). Include the exact error message, but remove license keys and personal information first.
 
 Report suspected package tampering or a security problem privately through the [security policy](.github/SECURITY.md). Never post license keys, passwords, recovery codes, or personal information in a public GitHub issue or Discord message.
 

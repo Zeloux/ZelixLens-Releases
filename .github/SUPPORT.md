@@ -13,6 +13,21 @@ Use the official ZelixLens channels:
 3. Confirm that you are using Windows 10/11 x64 and the current supported CS2 release.
 4. Record the ZelixLens version, the exact error message, and the step that failed.
 
+## Antivirus, blocked downloads, or quarantine
+
+Some antivirus products, including Windows Defender, may report a false positive or quarantine external overlay software. Verify the package before changing any security setting:
+
+1. Confirm that it came from GitHub Releases or the official Discord #download channel.
+2. Compare its SHA-256 value with the official `SHA256SUMS.txt` by following [the verification guide](docs/VERIFY.md).
+3. Extract the complete, verified ZIP into a dedicated ZelixLens folder.
+
+If the verified package is still blocked:
+
+- Restore the file from quarantine and add a narrow allow rule or exclusion for the dedicated ZelixLens folder.
+- Do not exclude your whole Downloads folder, drive, or another broad location.
+- If real-time protection must be paused for a quick installation test, re-enable it immediately afterward.
+- Never allow or exclude a copy that came from an unofficial mirror, direct message, or reupload.
+
 ## Include in a support request
 
 - ZelixLens version and release tag
