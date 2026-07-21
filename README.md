@@ -20,6 +20,9 @@
 
 </div>
 
+> [!TIP]
+> **Try ZelixLens free for 2 hours.** Join the [official Discord](https://discord.gg/KaA3YBZ43D) to receive a trial key before purchasing.
+
 ---
 
 ## Preview
