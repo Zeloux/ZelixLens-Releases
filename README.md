@@ -4,14 +4,6 @@
 
 **Private, kernel-backed CS2 software for Windows 10/11 x64.**
 
-> [!WARNING]
-> **Educational project and user responsibility:** This software was created as
-> a learning and research project. It is provided "as is," without warranties or
-> guarantees of any kind. You are solely responsible for how you use it and for
-> complying with all applicable laws, platform rules, and terms of service. The
-> author accepts no responsibility or liability for misuse, account penalties,
-> damages, or other consequences resulting from its use. ZelixLens is not
-> designed, supported, or intended for FACEIT and does not work on FACEIT.
 
 **FULL KERNEL BACKEND · EXTERNAL · READ-ONLY · HIGH-REFRESH OVERLAY**
 
@@ -42,6 +34,8 @@
 <sub>Clean controls, a focused layout, and profiles that can be saved for different play styles.</sub>
 
 </div>
+> [!WARNING]
+> **Use responsibly.** ZelixLens is provided as-is. You are responsible for following applicable laws, platform rules, and terms of service. FACEIT is not supported.
 
 ## At a glance
 
