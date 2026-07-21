@@ -12,7 +12,6 @@
 [![Read-only](https://img.shields.io/badge/Memory-Read--Only-0891B2?style=for-the-badge)](#full-kernel-external-and-read-only)
 ![Undetected](https://img.shields.io/badge/Status-UNDETECTED-16A34A?style=for-the-badge)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
-[![Downloads](https://img.shields.io/github/downloads/Zaroomx/ZelixLens-Releases/total?style=for-the-badge&color=7c3aed)](https://github.com/Zaroomx/ZelixLens-Releases/releases)
 
 [![Download ZelixLens](https://img.shields.io/badge/DOWNLOAD-Latest%20Complete%20Package-16A34A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zaroomx/ZelixLens-Releases/releases/latest/download/ZelixLens-CS2-Edition.zip)
 [![Get a key](https://img.shields.io/badge/GET%20A%20KEY-Affordable%20Access-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/KaA3YBZ43D)
