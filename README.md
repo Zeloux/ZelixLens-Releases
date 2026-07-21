@@ -34,6 +34,7 @@
 <sub>Clean controls, a focused layout, and profiles that can be saved for different play styles.</sub>
 
 </div>
+
 > [!WARNING]
 > **Use responsibly.** ZelixLens is provided as-is. You are responsible for following applicable laws, platform rules, and terms of service. FACEIT is not supported.
 
